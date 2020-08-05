@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c1189d869804a0ba06c4d6a5a8c349f" Name="Diagram1">
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.Airline" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.Airport" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.City" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.Country" Width="1.5" PointX="1.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.Route" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPHAirport_DBFirstModel.RouteOperater" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__Route__Owner__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__RouteOper__Airli__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__Airport__Country__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__City__IATA__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__Route__Destinati__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__Route__Destinati__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="CPHAirport_DBFirstModel.FK__RouteOper__Route__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
